@@ -66,7 +66,7 @@ namespace PocketFinansist
                     // Если стек навигации не восстанавливается для перехода к первой странице,
                     // настройка новой страницы путем передачи необходимой информации в качестве параметра
                     // навигации
-                    rootFrame.Navigate(typeof(Views.MainPage), e.Arguments);
+                    rootFrame.Navigate(typeof(Views.FinancesPage), e.Arguments);
                 }
                 // Обеспечение активности текущего окна
                 Window.Current.Activate();
